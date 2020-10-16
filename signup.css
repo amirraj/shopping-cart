@@ -1,0 +1,65 @@
+body{
+	background-image: url(bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover ;
+	background-position: center;
+}
+
+.contact-title{
+	padding-top:15px;
+	color:white;
+	font-weight: bold;
+	text-align:center;
+}
+
+
+
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+	
+}
+
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+	
+}
+#but{
+	background: DodgerBlue ;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	width:360px;
+	
+}
+input{
+	height: 45px;
+	
+}
+
+
+.home{
+	padding-right:500px;
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
